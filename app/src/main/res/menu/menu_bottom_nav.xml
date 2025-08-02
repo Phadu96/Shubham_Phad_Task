@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_watchlist"
+        android:icon="@drawable/ic_watchlist"
+        android:title="@string/str_watchlist" />
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/ic_orders"
+        android:title="@string/str_orders" />
+    <item
+        android:id="@+id/nav_portfolio"
+        android:icon="@drawable/ic_portfolio"
+        android:title="@string/portfolio" />
+    <item
+        android:id="@+id/nav_funds"
+        android:icon="@drawable/ic_funds"
+        android:title="@string/str_funds" />
+    <item
+        android:id="@+id/nav_invest"
+        android:icon="@drawable/ic_invest"
+        android:title="@string/str_invest" />
+</menu>

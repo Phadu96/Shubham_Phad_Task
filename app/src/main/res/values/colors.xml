@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="clr_labels">#6A6A6A</color>
+    <color name="clr_profit">#4CAF50</color>
+    <color name="clr_loss">#F22415</color>
+    <color name="clr_toolbar">#152E60</color>
+    <color name="clr_divider">#D5D5D5</color>
+    <color name="clr_bottom_sheet_stroke">#404040</color>
+    <color name="clr_bottom_sheet_bg">#E9E9E9</color>
+    <color name="clr_bottom_sheet_labels">#818181</color>
+    <color name="shimmer_background">#DDDDDD</color>
+    <color name="shimmer_placeholder">#CCCCCC</color>
+</resources>

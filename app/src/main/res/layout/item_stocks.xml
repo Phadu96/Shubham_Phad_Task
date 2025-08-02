@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="HDFC" />
+
+    <TextView
+        android:id="@+id/tv_stock_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/net_qty"
+        android:textColor="@color/clr_labels"
+        android:textSize="@dimen/_9ssp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stock_qty_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_stock_name"/>
+
+    <TextView
+        android:id="@+id/tv_stock_qty_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:textStyle="normal"
+        android:layout_marginEnd="@dimen/_4sdp"
+        app:layout_constraintStart_toEndOf="@+id/tv_stock_qty"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stock_name"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/tv_stock_ltp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_ltp"
+        android:textColor="@color/clr_labels"
+        android:textSize="@dimen/_9ssp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stock_ltp_value"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_ltp_value" />
+
+    <TextView
+        android:id="@+id/tv_stock_ltp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_stock_name"
+        tools:text="100.00" />
+
+    <TextView
+        android:id="@+id/tv_stock_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_p_and_l"
+        android:textColor="@color/clr_labels"
+        android:textSize="@dimen/_9ssp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_stock_pl_value"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_pl_value" />
+
+    <TextView
+        android:id="@+id/tv_stock_pl_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@color/clr_profit"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toEndOf="@+id/tv_stock_ltp_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stock_ltp"
+        tools:text="10.10" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:background="@color/clr_divider"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stock_pl_value" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
