@@ -2,6 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#152E60</color>
+    <color name="colorPrimaryVariant">#152E60</color>
+    <color name="colorOnPrimary">#152E60</color>
     <color name="clr_labels">#6A6A6A</color>
     <color name="clr_profit">#4CAF50</color>
     <color name="clr_loss">#F22415</color>
