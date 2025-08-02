@@ -32,8 +32,6 @@
         android:layout_gravity="bottom"
         android:background="@color/clr_divider"
         android:clickable="false"
-        app:itemIconTint="@null"
-        app:itemTextColor="@null"
         app:itemBackground="@drawable/bg_bottom_nav_item"
         app:itemPaddingBottom="@dimen/_14sdp"
         app:itemPaddingTop="@dimen/_10sdp"
