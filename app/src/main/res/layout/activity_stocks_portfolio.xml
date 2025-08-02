@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/white"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
     <include
@@ -28,13 +29,12 @@
         android:id="@+id/bottomNavigation"
         style="@style/NoHighlightBottomNavigation"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_60sdp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@color/clr_divider"
         android:clickable="false"
+        android:paddingBottom="@dimen/_5sdp"
         app:itemBackground="@drawable/bg_bottom_nav_item"
-        app:itemPaddingBottom="@dimen/_14sdp"
-        app:itemPaddingTop="@dimen/_10sdp"
         app:itemRippleColor="@android:color/transparent"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
